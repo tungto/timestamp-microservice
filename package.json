@@ -1,0 +1,19 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "FCC Project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tungto/timestamp-microservice.git"
+  },
+  "author": "tungto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tungto/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/tungto/timestamp-microservice#readme"
+}
