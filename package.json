@@ -2,8 +2,9 @@
   "name": "timestamp-microservice",
   "version": "1.0.0",
   "description": "FCC Project 1",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "dev": "nodemon yarn start",
     "test": "yarn test:unit"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/tungto/timestamp-microservice/issues"
   },
-  "homepage": "https://github.com/tungto/timestamp-microservice#readme"
+  "homepage": "https://github.com/tungto/timestamp-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }
