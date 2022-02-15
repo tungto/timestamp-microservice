@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 
 app.get('/api/:date', (req, res) => {
 	let inputDate = req.params.date;
+	let date;
 	if (inputDate === undefined) {
 		// use the current time
 		date = new Date();
