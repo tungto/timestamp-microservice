@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 	res.sendFile(__dirname + '/public/index.html');
 });
 
-app.get('/api/:date', (req, res) => {
+app.get('/api/:date?', (req, res) => {
 	let inputDate = req.params.date;
 	let date;
 	if (inputDate === undefined) {
